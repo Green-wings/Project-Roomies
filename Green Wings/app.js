@@ -81,7 +81,7 @@ $('#assignChores').on('submit', function(e) {
     if(chore == undefined) {
       $('#listAssign').append(roomies[i] + " has no chores!!" + "<br>");
     } else {
-      $('#listAssign').append(roomies[i]  + "must " + chore + "<br>");
+      $('#listAssign').append(roomies[i]  + " must " + chore + "<br>");
       console.log("The chore is " + chore + " and is assign to " + roomies[i] + ".");
     }
     removeFromArray(chores, chore);
